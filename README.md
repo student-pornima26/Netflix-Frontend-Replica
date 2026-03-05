@@ -1,4 +1,4 @@
-# 🎬 Netflix Clone (HTML & CSS)
+# 🎬 Netflix Frontend Replica (HTML & CSS)
 
 ## 📌 Project Overview
 
@@ -42,9 +42,7 @@ The main goal of this project was to improve my frontend development skills and 
 ---
 
 ## 📷 Preview
-
-
-![Project Preview](Screenshot 2026-03-04 195330.png)
+![Project Preview](screenshot.png)
 
 ---
 
