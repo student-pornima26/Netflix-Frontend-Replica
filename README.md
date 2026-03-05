@@ -42,7 +42,7 @@ The main goal of this project was to improve my frontend development skills and 
 ---
 
 ## 📷 Preview
-![Project Preview](screenshot.png)
+![Project Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/screenshot.png?raw=true)
 
 ---
 
