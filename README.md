@@ -42,10 +42,10 @@ The main goal of this project was to improve my frontend development skills and 
 ---
 
 ## 📷 Preview
-![Project Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/screenshot.png?raw=true)
+### 💻 Desktop View
+![Project Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/screenshot.png?raw=true)![Netflix UI Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/Screenshot%202026-03-04%20195430.png?raw=true)
 
-![Netflix UI Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/Screenshot%202026-03-04%20195430.png?raw=true)
-
+### 📱 Netflix Mobile View
 ![Netflix Mobile Preview](https://github.com/student-pornima26/Netflix-Frontend-Replica/blob/main/InstagramClone/Screenshot%202026-03-04%20195127.png?raw=true)
 
 ---
