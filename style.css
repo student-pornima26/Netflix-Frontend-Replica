@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaina+2:wght@400..800&family=Kapakana:wght@300..400&family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaina+2:wght@400..800&family=Kapakana:wght@300..400&family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    /* vertical align */
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    /* it automatically center accordingly to margin and set margin according to max width */
+    /* space around set space between both words last me dono ke end me for responsive */
+    justify-content: space-between;
+    height: 90px;
+}
+
+.main {
+    background-image: url(Assests/img/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    /* agar width 300vw se bada to x-axis me repeat hoga  */
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    /* it is not breaking if the device size is too small  */
+    /* it resize ensures the background image always looks big and as wide as the screen */
+
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    /* it set the nav on top according to img apply all properties of box to nav also */
+    position: absolute;
+    top: 0px;
+
+}
+
+nav img {
+    color: rgb(254, 2, 2);
+    /* background-color: rgb(3, 3, 3); */
+    /* it bold the netflix make large font */
+    width: 130px;
+    position: relative;
+    z-index: 10;
+    /* it pop out from all styling and bold the image from background img */
+    font-size: 16px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+    /* parent height is already set we set the height here */
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    color: rgb(246, 248, 249);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 23px;
+    /* padding: 30px; */
+    /* margin-left: 540px;
+margin-right: 540px;
+text-align: center; */
+    /* em ded guna 1em = 18px 1.5 em = 34 px ded guna */
+    /* rem font size=12px 2rem do guna 24px  */
+
+    max-width: 46.5rem;
+    /* min-height: min(70vh);  */
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+
+    top: 26px;
+
+}
+
+/* to make h1 bold */
+/*>sign for immediate first child */
+.hero> :nth-child(1) {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.hero> :nth-child(2) {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero> :nth-child(3) {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(128, 3, 3);
+
+
+}
+
+.btn {
+    font-family: "Poppins", sans-serif;
+    padding: 4px 18px;
+    font-weight: 600;
+    background-color: rgba(126, 119, 119, 0.173);
+    color: white;
+    border: 1px solid rgba(165, 163, 163, 0.381);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn.red-sn {
+    padding: 4px 18px;
+    background-color: red;
+    border-radius: 3px;
+
+
+}
+
+.btn.red-btn {
+    /* display: flex; */
+    /* align-items: center;    */
+    /* vertically center text + svg */
+    /* justify-content: center; */
+    /* gap: 10px; */
+    /* space between text and arrow */
+    padding: 8px 25px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    /* border: none; */
+    cursor: pointer;
+    border-radius: 6px;
+
+    background-color: red;
+}
+
+
+
+.red-btn svg {
+    display: block;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main input {
+    /* padding top right bottom left */
+    padding: 14px 180px 14px 20px;
+    font-size: 12px;
+    border: 1px solid #a5a5a5;
+    border-radius: 6px;
+    background-color: rgb(43, 37, 37, 0.5);
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.secImg {
+    position: relative;
+    height: 505px;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    top: 20px;
+}
+
+.secImg video {
+    /* video idhar udhar karke tv me fit */
+    position: absolute;
+    right: 1px;
+    top: 125px;
+    width: 481px;
+}
+
+.first {
+    /* side by side content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* set max width center only half of width */
+    max-width: 70vw;
+    /* margin :auto set automatically margin from both side  */
+    margin: auto;
+    color: white;
+
+}
+
+
+
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0px;
+}
+
+.first>div :first-child {
+    /* background-color: blue; */
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.seperation2 {
+    border: 3px solid rgba(121, 117, 117, 0.411);
+}
+
+.faq {
+    /* background-color: black;  */
+    color: #ffffdd;
+
+
+}
+
+.faq h2 {
+    text-align: center;
+    padding: 34px 0px 12px 0px;
+    font-size: 48px;
+}
+
+.faq-box {
+    font-size: 24px;
+    display: flex;
+    background-color: rgb(45 45 45);
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 14px auto;
+    /* top bottom 34px and auto */
+    cursor: pointer;
+    transition: all 1s ease-out;
+
+}
+
+.faq-box svg {
+    /* it make plus to white */
+    filter: invert(1);
+}
+
+.faq-box:hover {
+    background-color: #414141;
+}
+
+/* element */
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+
+}
+
+/* class */
+.footer {
+    display: grid;
+    /* four column of equal fractioa */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    /* max-width: 60vw; */
+    margin: auto;
+
+}
+.footer a {
+    /* hyperline */
+    /*remove the underline from the text*/
+    /* text-decoration: none; */
+    color: white;
+    font-size: 14px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+@media screen and (max-width:1300px) {
+
+    /* body{
+        background-color: red;
+    } */
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 300px;
+    }
+
+    .secImg video {
+        width: 260px;
+        top: 86px;
+    }
+
+    .secImg {
+        height: 275px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .footer {
+        display: grid;
+        /* four column of equal fractioa */
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .first>div :first-child {
+        /* background-color: blue; */
+        font-size: 32px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .first>div :nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+
+        /* align-items: center; */
+
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .faq h2 {
+        text-align: center;
+        padding: 34px 0px 12px 0px;
+        font-size: 32px;
+    }
+
+    /* .secImg {
+
+        height: 385px;
+    } */
+    footer {
+        /* max-width: 60vw; */
+        padding: 75px 0;
+    }
+}
+
