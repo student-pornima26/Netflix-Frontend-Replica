@@ -8,6 +8,9 @@ The project replicates the Netflix landing page design including hero banner, na
 The main goal of this project was to improve my frontend development skills and practice real-world UI design using HTML and CSS.
 
 ---
+## Live Website
+https://student-pornima26.github.io/Netflix-Frontend-Replica/
+
 
 ## 🚀 Features
 
