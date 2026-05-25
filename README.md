@@ -1,4 +1,4 @@
-# 🎬 Netflix Frontend Replica (HTML & CSS)
+# 🎬 Netflix Frontend Replica 
 
 ## 📌 Project Overview
 
